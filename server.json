@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/uganda-land-parcels",
+  "title": "Uganda Land Parcels (Kampala Cadastre · Block & Plot)",
+  "description": "Kampala cadastral parcels (MLHUD 2024) by cadastral number, block and plot, or coordinates.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/uganda-land-parcels-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/uganda",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/uganda"
+    }
+  ]
+}
